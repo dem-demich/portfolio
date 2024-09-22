@@ -15,7 +15,7 @@ module.exports = (env) => ({
         clean: true //* Очищать старый файл сборки при создании нового
     },
 
-    //! Подключение плагинов 
+    //! Подключение плагинов
     plugins: [
         new HtmlWebpackPlugin({ template: path.resolve(__dirname, 'public', 'index.html')}) //* Создает build/index.html на основе public.html с подключенным bundle.js
     ],
